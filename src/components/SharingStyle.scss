@@ -1,0 +1,92 @@
+.formContainer {
+  margin: 64px auto 0px;
+  width: 356px;
+}
+
+h3 {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 78px;
+  margin-bottom: 2px;
+}
+
+.inputContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2px 16px;
+  background-color: #F5F8FA;
+  border-bottom: 2px solid #657786;
+  border-radius: 2px 2px 0 0;
+}
+
+.inputLabel {
+  color: #696974;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.inputField{
+  color: #B5B5BE;
+  width: 100%;
+  font-size: 16px;
+  line-height: 26px;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.inputNote{
+  display: flex;
+  height: 24px;
+  font-size: 12px
+}
+
+.inputMessage {
+  margin-right: auto;
+}
+.inputCounter{
+  margin-left: auto;
+}
+.mainButton {
+  border-radius: 50px;
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  width: 100%;
+  height: 46px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 6px 0;
+  margin: 16px 0;
+}
+
+.mainButton:hover {
+  cursor: pointer;
+}
+
+.outerLink{
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  height: 36px;
+  line-height: 36px;
+}
+.linkText{
+  color: #0062ff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 12px;
+}
